@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wild Sugar Patisserie & Cafe – Premium Café in Mumbai</title>
+    <meta name="description" content="Welcome to Wild Sugar Patisserie & Cafe in Mumbai. Enjoy fresh pastries, aromatic coffee, and a cozy ambience. Call +91 74068 39869 or WhatsApp us!">
+    <meta property="og:title" content="Wild Sugar Patisserie & Cafe"/>
+    <meta property="og:description" content="Premium café offering artisanal pastries, specialty coffee, and a warm atmosphere in Mumbai."/>
+    <meta property="og:image" content="https://source.unsplash.com/800x600/?cafe"/>
+    <meta property="og:url" content="https://wildsugarcafe.example.com"/>
+    <meta property="og:type" content="website"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root{
+            --primary:#6f4e37;
+            --secondary:#c09f80;
+            --accent:#d4a373;
+            --text:#333;
+            --bg:#fff;
+        }
+        *{margin:0;padding:0;box-sizing:border-box;}
+        body{
+            font-family:'Montserrat',sans-serif;
+            color:var(--text);
+            background:var(--bg);
+            scroll-behavior:smooth;
+        }
+        a{color:inherit;text-decoration:none;}
+        header{
+            position:fixed;top:0;width:100%;z-index:1000;background:rgba(255,255,255,.9);backdrop-filter:blur(5px);
+            box-shadow:0 2px 6px rgba(0,0,0,.1);
+        }
+        nav{
+            max-width:1200px;margin:auto;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;
+        }
+        nav ul{list-style:none;display:flex;gap:1.5rem;}
+        nav a{font-weight:600;transition:color .3s;}
+        nav a:hover{color:var(--accent);}
+        .hero{
+            height:100vh;
+            background:linear-gradient(135deg,var(--primary),var(--secondary));
+            color:#fff;
+            display:flex;flex-direction:column;justify-content:center;align-items:center;
+            text-align:center;padding:0 2rem;
+        }
+        .hero h1{font-size:3rem;margin-bottom:.5rem;}
+        .hero p{font-size:1.2rem;margin-bottom:1.5rem;}
+        .hero button{
+            background:#fff;color:var(--primary);border:none;padding:.8rem 1.5rem;
+            font-size:1rem;border-radius:4px;cursor:pointer;transition:transform .3s;
+        }
+        .hero button:hover{transform:scale(1.05);}
+        section{padding:4rem 2rem;max-width:1200px;margin:auto;}
+        .about{display:flex;flex-wrap:wrap;gap:2rem;align-items:center;}
+        .about img{flex:1 1 300px;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.1);}
+        .about div{flex:1 1 300px;}
+        .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem;}
+        .service-card{
+            background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.1);border-radius:8px;padding:2rem;
+            text-align:center;transition:transform .3s;
+        }
+        .service-card:hover{transform:translateY(-5px);}
+        .service-card i{
+            font-size:2rem;color:var(--primary);margin-bottom:.5rem;
+        }
+        .testimonials{position:relative;overflow:hidden;}
+        .carousel{
+            display:flex;transition:transform .5s ease;
+        }
+        .testimonial{
+            min-width:100%;padding:2rem;text-align:center;
+        }
+        .testimonial p{font-style:italic;margin-bottom:.5rem;}
+        .testimonial h4{font-weight:600;color:var(--primary);}
+        .gallery{
+            display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;
+        }
+        .gallery img{width:100%;height:auto;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,.1);}
+        .contact form{
+            display:flex;flex-direction:column;gap:.8rem;max-width:600px;margin:auto;
+        }
+        .contact input,.contact textarea{
+            padding:.8rem;border:1px solid #ccc;border-radius:4px;
+        }
+        .contact button{
+            background:var(--primary);color:#fff;border:none;padding:.8rem 1.2rem;
+            cursor:pointer;border-radius:4px;transition:background .3s;
+        }
+        .contact button:hover{background:var(--accent);}
+        .map iframe{
+            width:100%;height:400px;border:0;border-radius:8px;
+        }
+        footer{
+            background:#222;color:#ddd;padding:2rem 1rem;text-align:center;
+        }
+        footer a{margin:0 .5rem;color:#ddd;}
+        .whatsapp-float{
+            position:fixed;bottom:20px;right:20px;z-index:1000;
+        }
+        .whatsapp-float a{
+            background:#25D366;color:#fff;width:56px;height:56px;display:flex;justify-content:center;align-items:center;
+            border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,.3);font-size:1.5rem;
+            transition:transform .3s;
+        }
+        .whatsapp-float a:hover{transform:scale(1.1);}
+        @media(max-width:768px){
+            .hero h1{font-size:2.5rem;}
+            .about{flex-direction:column;}
+        }
+    </style>
+</head>
+<body>
+  <div class="zerotouch-demo-banner" style="background: linear-gradient(90deg, #1e293b 0%, #0f172a 100%); color: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; padding: 12px 24px; text-align: center; font-size: 14px; font-weight: 500; display: flex; align-items: center; justify-content: center; gap: 8px; border-bottom: 2px solid #3b82f6; position: relative; z-index: 999999; box-sizing: border-box; line-height: 1.5;">
+    <span style="font-size: 16px;">💡</span>
+    <span>This is a <strong>free interactive demo website</strong> built automatically for <strong>Wild Sugar Patisserie & Cafe</strong>. This is not the official website of this business.</span>
+  </div>
+
+    <header>
+        <nav>
+            <div><strong>Wild Sugar Patisserie &amp; Cafe</strong></div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Menu</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <h1>Welcome to Wild Sugar Patisserie &amp; Cafe</h1>
+        <p>Fresh pastries, aromatic coffees &amp; a cozy ambience in the heart of Mumbai.</p>
+        <button onclick="document.getElementById('contact').scrollIntoView()">Reserve a Table</button>
+    </section>
+
+    <section id="about" class="about">
+        <img src="https://source.unsplash.com/800x600/?cafe,interior" loading="lazy" alt="Inside Wild Sugar Patisserie & Cafe">
+        <div>
+            <h2>About Us</h2>
+            <p>At Wild Sugar, we blend the art of French patisserie with the vibrant flavors of Mumbai. Our skilled bakers craft every croissant, cake and cupcake with premium ingredients, while our baristas serve specialty coffees that awaken the senses.</p>
+            <p>Visit us at our beautifully designed space and enjoy a perfect combination of taste and hospitality.</p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2 style="grid-column:1/-1;text-align:center;margin-bottom:2rem;">Our Menu Highlights</h2>
+        <div class="service-card">
+            <i>☕</i>
+            <h3>Specialty Coffee</h3>
+            <p>Espresso, latte, cappuccino made with freshly roasted beans.</p>
+        </div>
+        <div class="service-card">
+            <i>🥐</i>
+            <h3>Fresh Croissants</h3>
+            <p>Buttery, flaky croissants baked daily.</p>
+        </div>
+        <div class="service-card">
+            <i>🍰</i>
+            <h3>Signature Cakes</h3>
+            <p>Hand‑crafted cakes for every celebration.</p>
+        </div>
+        <div class="service-card">
+            <i>🧁</i>
+            <h3>Artisan Cupcakes</h3>
+            <p>Delicious cupcakes with unique flavors and designs.</p>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2 style="text-align:center;margin-bottom:2rem;">What Our Customers Say</h2>
+        <div class="carousel" id="carousel">
+            <div class="testimonial">
+                <p>"The coffee is the best I've had in Mumbai, and the croissants melt in your mouth!"</p>
+                <h4>Rohit Sharma</h4>
+            </div>
+            <div class="testimonial">
+                <p>"A perfect place for weekend brunch with friends. The ambience is wonderful."</p>
+                <h4>Priya Desai</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Their birthday cakes are a work of art. Highly recommended!"</p>
+                <h4>Arjun Patel</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2 style="grid-column:1/-1;text-align:center;margin-bottom:2rem;">Gallery</h2>
+        <img src="https://source.unsplash.com/800x600/?cafe, pastry" loading="lazy" alt="Pastry">
+        <img src="https://source.unsplash.com/800x600/?coffee, latte" loading="lazy" alt="Coffee">
+        <img src="https://source.unsplash.com/800x600/?cafe, interior" loading="lazy" alt="Cafe interior">
+        <img src="https://source.unsplash.com/800x600/?cake, dessert" loading="lazy" alt="Dessert">
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 style="text-align:center;margin-bottom:2rem;">Get In Touch</h2>
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="map" style="margin-top:2rem;">
+            <iframe src="https://maps.app.goo.gl/oxkTEfQmvqiFHpwq5" loading="lazy" allowfullscreen></iframe>
+        </div>
+        <p style="text-align:center;margin-top:1rem;">
+            <a href="tel:+917406839869">📞 +91 74068 39869</a> |
+            <a href="mailto:zerotouchweb@gmail.com">✉️ zerotouchweb@gmail.com</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Mumbai Wild Sugar Patisserie &amp; Cafe</p>
+        <p>
+            <a href="https://facebook.com" target="_blank">Facebook</a> |
+            <a href="https://instagram.com" target="_blank">Instagram</a> |
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+        </p>
+    </footer>
+
+    <div class="whatsapp-float">
+        <a href="https://wa.me/917406839869" target="_blank" aria-label="Chat on WhatsApp">💬</a>
+    </div>
+
+    <script>
+        // Carousel
+        const carousel = document.getElementById('carousel');
+        let index = 0;
+        setInterval(()=>{
+            index = (index + 1) % carousel.children.length;
+            carousel.style.transform = `translateX(-${index * 100}%)`;
+        },4000);
+
+        // Contact form placeholder submission
+        document.getElementById('contactForm').addEventListener('submit', e=>{
+            e.preventDefault();
+            alert('Thank you! Your message has been sent.');
+            e.target.reset();
+        });
+    </script>
+</body>
+</html>
